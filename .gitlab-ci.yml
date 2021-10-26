@@ -1,0 +1,14 @@
+stages:
+    - publish
+
+pages: 
+    stage: publish 
+    script: 
+        - touch public.tar # create a placeholder for tar --exclude arg
+        - tar -czvf public.tar --exclude=public.tar --exclude=.git ./*
+        - mkdir public
+        - tar -xzvf public.tar -C ./public
+    artifacts: 
+        paths:
+            - public
+
