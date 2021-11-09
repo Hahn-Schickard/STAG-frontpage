@@ -1,3 +1,18 @@
+/*******************************************************************************
+Slate Theme for GitHub Pages
+by Jason Costello, @jsncostello
+*******************************************************************************/
+
+/*******************************************************************************
+adaptiert für das Projekt NIKI 4.0
+(andere Farbwerte, ...)
+*******************************************************************************/
+
+
+/*******************************************************************************
+MeyerWeb Reset
+*******************************************************************************/
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -42,7 +57,8 @@ footer, header, hgroup, menu, nav, section {
 }
 
 ol { 
-	list-style: decimal;
+  margin: 10px;
+  list-style: decimal;
 }
 ul {
   list-style: none;
@@ -57,12 +73,16 @@ table {
 Theme Styles
 *******************************************************************************/
 
+* {
+  font-family: Arial;
+}
+
 body {
   box-sizing: border-box;
   color:#373737;
   background: #f2f2f2;
   font-size: 16px;
-  font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
+  /* font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif; */
   font-color:#404040;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
@@ -72,7 +92,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 10px 0;
   font-weight: 700;
   color:#404040;
-  font-family: 'Consolas', 'Calibri', Helvetica, Arial, sans-serif;
+  /* font-family: 'Consolas', 'Calibri', Helvetica, Arial, sans-serif; */
   letter-spacing: -1px;
 }
 
@@ -139,7 +159,7 @@ footer a {
 
 strong {
   font-weight: bold;
-    font-family: 'Consolas', 'Calibri', Helvetica, Arial, sans-serif;
+    /* font-family: 'Consolas', 'Calibri', Helvetica, Arial, sans-serif; */
 }
 
 img {
@@ -171,7 +191,7 @@ pre, code {
   color: #222;
   background-color: #fff;
 
-  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  /* font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace; */
   font-size: 14px;
 
   border-radius: 2px;
@@ -246,7 +266,7 @@ Full-Width Styles
 
 #project_logo {
   margin: 0;
-position: absolute;
+  position: absolute;
   top:0;
   right:0px;
 }
@@ -291,7 +311,7 @@ position: absolute;
   margin-left:5px;
   margin-right:5px;
   font-weight: bold;
-    font-family: 'Consolas', 'Calibri', Helvetica, Arial, sans-serif;
+    /* font-family: 'Consolas', 'Calibri', Helvetica, Arial, sans-serif; */
 }
 
 #main_content_wrap {
