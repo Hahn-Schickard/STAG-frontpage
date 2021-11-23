@@ -1,44 +1,11 @@
-<footer class="site-footer">
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.gitlab_username %}
-          <li>
-            {% include icon-gitlab.html username=site.gitlab_username %}
-          </li>
-          {% endif %}
-
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
-      </div>
-    </div>
-
-  </div>
-
-</footer>
+<div style="height: 10px; background-color: #00ACf1"></div>
+<div id="footer_wrap" class="outer">
+    <footer id="footer_inner"> <a id="forkme_banner" href="https://github.com/Hahn-Schickard/STAG-frontpage/tree/main" target="_blank">View
+            on GitHub</a>
+        <p class="copyright">
+        Published with: <a href="https://pages.github.com" target="_blank">GitHub Pages</a><br>
+            <a href="{{site.baseurl}}/impressum/">Imprint</a> 
+            <a href="https://help.github.com/articles/github-privacy-statement/" target="_blank ">Privacy Policy</a>
+        </p>
+    </footer>
+</div>

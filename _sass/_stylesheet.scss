@@ -13,6 +13,10 @@ adaptiert für das Projekt NIKI 4.0
 MeyerWeb Reset
 *******************************************************************************/
 
+* {
+  font-family: Arial;
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -29,7 +33,7 @@ time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
-  font: inherit;
+  // font: inherit;
   vertical-align: baseline;
 }
 
@@ -37,7 +41,7 @@ time, mark, audio, video {
   margin: 0;
   padding-top: 10px;
   border: 0;
-  font: inherit;
+  // font: inherit;
   vertical-align: baseline;
 }
 
@@ -72,10 +76,6 @@ table {
 /*******************************************************************************
 Theme Styles
 *******************************************************************************/
-
-* {
-  font-family: Arial;
-}
 
 /*body {
   box-sizing: border-box;
@@ -179,13 +179,14 @@ img {
   max-width: 739px;
   padding: 5px;
   margin: 10px 0 10px 0;
-  border: 1px solid #FFFFFF;
-  background-color:#FFFFFF;
-  box-shadow: 0 0 5px #111111;
-  -webkit-box-shadow: 0 0 5px #111111;
-  -moz-box-shadow: 0 0 5px #111111;
-  -o-box-shadow: 0 0 5px #111111;
-  -ms-box-shadow: 0 0 5px #111111;
+  // border: 1px solid #FFFFFF;
+  background-color: transparent;
+  // background-color:#FFFFFF;
+  // box-shadow: 0 0 5px #111111;
+  // -webkit-box-shadow: 0 0 5px #111111;
+  // -moz-box-shadow: 0 0 5px #111111;
+  // -o-box-shadow: 0 0 5px #111111;
+  // -ms-box-shadow: 0 0 5px #111111;
 }
 
 p img {
@@ -258,8 +259,7 @@ Full-Width Styles
   background-position-y: 0%;
   background-repeat: repeat;
   background-attachment: scroll;
-  /*background-image: linear-gradient(rgb(255, 255, 255) 0%, rgb(248, 243, 227) 100%);*/
-  background-image: linear-gradient(rgb(255, 255, 255) 0%, rgb(248, 243, 190) 100%);
+  background-image: linear-gradient(#bebebe 0%, #fff 100% );
   background-size: auto;
   background-origin: padding-box;
   background-clip: border-box;
@@ -272,8 +272,7 @@ Full-Width Styles
   background-position-y: 0%;
   background-repeat: repeat;
   background-attachment: scroll;
-  /*background-image: linear-gradient(rgb(255, 255, 255) 0%, rgb(248, 243, 227) 100%);*/
-  background-image: linear-gradient(rgb(255, 255, 255) 0%, rgb(248, 243, 190) 100%);
+  background-image: linear-gradient(#fff 0%, #bebebe 100%);
   background-size: auto;
   background-origin: padding-box;
   background-clip: border-box;
@@ -287,7 +286,6 @@ Full-Width Styles
   z-index: 10;
   padding: 10px 50px 10px 10px;
   color: #fff;
-  /*background: url('../img/blacktocat.jpg') #007749 no-repeat 95% 50%;*/
   background: url('../img/blacktocat.jpg') #333 no-repeat 95% 50%;
   font-weight: 700;
   box-shadow: 0 0 10px rgba(0,0,0,.5);
@@ -305,11 +303,24 @@ Full-Width Styles
   height:80px;
 }
 
-#project_logo {
-  margin: 0;
+// #project_logo {
+//   // margin: 0;
+//   position: absolute;
+//   // margin: 290px;
+//   top:0px;
+//   right:0px;
+// }
+
+.project_logo {
+  // margin: 0;
   position: absolute;
-  top:0;
+  // margin: 290px;
+  top:0px;
   right:0px;
+}
+
+#right{
+  float: right;
 }
 
 #logo{
@@ -341,7 +352,7 @@ Full-Width Styles
 }
 
 .menu_link{
- padding: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
   color: #eee;
   background: #333;
   font-weight: 700;
