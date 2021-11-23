@@ -1,2 +1,5 @@
-.gitlab-ci.yml
-README.md
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
