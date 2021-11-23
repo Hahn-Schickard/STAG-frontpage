@@ -1,14 +1,12 @@
-stages:
-    - publish
+image: ruby:latest
 
-pages: 
-    stage: publish 
-    script: 
-        - touch public.tar # create a placeholder for tar --exclude arg
-        - tar -czvf public.tar --exclude=public.tar --exclude=.git ./*
-        - mkdir public
-        - tar -xzvf public.tar -C ./public
-    artifacts: 
-        paths:
-            - public
+pages:
+  script:
+    - gem install bundler
+    - bundle install
+    - bundle exec jekyll build -d public
+  artifacts:
+    paths:
+      - public
+
 
