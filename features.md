@@ -12,7 +12,7 @@ The most important goal of STAG is its ease of use. The sensor developer himself
 2. **Independent of specific sensor systems**  
 In order to make the applicability as high as possible and to keep the configuration effort as low as possible, STAG is developed in such a way that it is independent of concrete sensor characteristics. STAG can support different sensor systems with different measurement values and properties "out-of-the-box". This is achieved through the use of a sensor description, such as is already provided for in the [Lightweight Machine to Machine Standard (LwM2M)](https://omaspecworks.org/what-is-oma-specworks/iot/lightweight-m2m-lwm2m/)  or in the [Bluetooth GATT profiles  (Generic Attribute Profile)](https://www.bluetooth.com/de/specifications/specs/). 
 3. **Modular and expandable design**  
-The [architecture of STAG]() has been defined in such a way that STAG itself can be extended by various technology or protocol adapters. This modular structure makes it possible to add further interfaces to STAG at a later date or to switch variably between different protocols.  
+The architecture of STAG has been defined in such a way that STAG itself can be extended by various technology or protocol adapters. This modular structure makes it possible to add further interfaces to STAG at a later date or to switch variably between different protocols.  
 4. **Common understanding and data model of sensor systems and sensor information**  
 In order to  translate and transforme between different protocols and standards, a uniform definition of sensor information is necessary. This central data model is used as a common core of the different technology and protocol adapters and significantly facilitates the translation between different technologies, as only one mapping into the central data model is required per technology or protocol and not n mappings into n supported technologies.   
 5. **Central translation technology for mapping between different data models**  
@@ -25,7 +25,7 @@ The heart of STAG is the aforementioned common central data model. As with human
 
 2. Platform and compiler independent  
    STAG can be compiled an run on Linux as well as Windows and Mac. Additional, it is compatible with X86 and ARM architecture and thus can be executed on small embedded Linux device like Raspberry as well as on virtualized backend servers
-3. Integrates the [open62541 OPC UA server]()  
+3. Integrates the [open62541 OPC UA server](https://open62541.org/)  
    The implementation oft he OPC UA adapter bases on the open source OPC UA SDK open62541.
 4. Includes an integrarted LwM2M server  
    STAG includes a dedicated LwM2M server integrated in a technology adapter to handle LwM2M sensor requests.
