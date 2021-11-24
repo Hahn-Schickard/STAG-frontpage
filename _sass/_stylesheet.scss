@@ -33,7 +33,6 @@ time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
-  // font: inherit;
   vertical-align: baseline;
 }
 
@@ -41,7 +40,6 @@ time, mark, audio, video {
   margin: 0;
   padding-top: 10px;
   border: 0;
-  // font: inherit;
   vertical-align: baseline;
 }
 
@@ -61,7 +59,7 @@ footer, header, hgroup, menu, nav, section {
 }
 
 ol { 
-  margin: 10px;
+  margin: 30px;
   list-style: decimal;
 }
 ul {
@@ -77,16 +75,6 @@ table {
 Theme Styles
 *******************************************************************************/
 
-/*body {
-  box-sizing: border-box;
-  color:#373737;
-  background: #f2f2f2;
-  font-size: 16px;
-  font-color:#404040;
-  line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
-}*/
-
 body {
   display: flex;
   flex-direction: column;
@@ -101,7 +89,6 @@ h1, h2, h3, h4, h5, h6 {
   margin: 10px 0;
   font-weight: 700;
   color:#404040;
-  /* font-family: 'Consolas', 'Calibri', Helvetica, Arial, sans-serif; */
   letter-spacing: -1px;
 }
 
@@ -109,13 +96,11 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 36px;
   font-weight: 700;
-  /*background: url('../images/bg_hr.png') repeat-x bottom;*/
 }
 
 h2 {
   padding-bottom: 10px;
   font-size: 24px;
-  /*background: url('../images/bg_hr.png') repeat-x bottom;*/
 }
 
 h3 {
@@ -139,7 +124,6 @@ p {
 }
 
 footer p {
-  /*color: #f2f2f2;*/
   color: black;
 }
 
@@ -163,30 +147,19 @@ a {
 a:hover, a:focus {text-decoration: underline;}
 
 footer a {
-  /*color: #F2F2F2; */
   color: black;
   text-decoration: underline;
 }
 
 strong {
   font-weight: bold;
-    /* font-family: 'Consolas', 'Calibri', Helvetica, Arial, sans-serif; */
 }
 
 img {
   position: relative;
   margin: 0 auto;
   max-width: 739px;
-  padding: 5px;
-  margin: 10px 0 10px 0;
-  // border: 1px solid #FFFFFF;
   background-color: transparent;
-  // background-color:#FFFFFF;
-  // box-shadow: 0 0 5px #111111;
-  // -webkit-box-shadow: 0 0 5px #111111;
-  // -moz-box-shadow: 0 0 5px #111111;
-  // -o-box-shadow: 0 0 5px #111111;
-  // -ms-box-shadow: 0 0 5px #111111;
 }
 
 p img {
@@ -202,10 +175,7 @@ pre, code {
   width: 100%;
   color: #222;
   background-color: #fff;
-
-  /* font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace; */
   font-size: 14px;
-
   border-radius: 2px;
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
@@ -294,7 +264,6 @@ Full-Width Styles
 }
 
 #header_wrap {
-  /*background: #007749;*/
   background: #EDE0B6;
 }
 
@@ -303,18 +272,8 @@ Full-Width Styles
   height:80px;
 }
 
-// #project_logo {
-//   // margin: 0;
-//   position: absolute;
-//   // margin: 290px;
-//   top:0px;
-//   right:0px;
-// }
-
 .project_logo {
-  // margin: 0;
   position: absolute;
-  // margin: 290px;
   top:0px;
   right:0px;
 }
@@ -340,7 +299,6 @@ Full-Width Styles
 
 #menu {
   position: absolute;
-  /*background: #878888;*/
   background: #9F2914;
   z-index: 10;
   bottom: -30px;
