@@ -21,8 +21,8 @@ The heart of STAG is the aforementioned common central data model. As with human
 1. **Completely written in C/C++**  
    STAG is completely written in C/C++ with cmake as build tool and conan for dependancy and library management.  
 2. **Platform and compiler independent**  
-   STAG can be compiled an run on Linux as well as Windows and Mac. Additional, it is compatible with X86 and ARM architecture and thus can be executed on small embedded Linux device like Raspberry as well as on virtualized backend servers  
-3. **Integrates the [open62541 OPC UA server](https://open62541.org/){:target="_blank"}**  
-   The implementation oft he OPC UA adapter bases on the open source OPC UA SDK open62541.  
+   STAG can be compiled an run on Linux as well as Windows and Mac. Additional, it is compatible with X86 and ARM architecture and thus can be executed on small embedded Linux device like Raspberry as well as on virtualized backend servers.  
+3. **Integrates the open62541 OPC UA server**  
+   The implementation of the OPC UA adapter bases on the open source OPC UA SDK [open62541](https://open62541.org/){:target="_blank"}.  
 4. **Includes an integrarted LwM2M server**  
    STAG includes a dedicated LwM2M server integrated in a technology adapter to handle LwM2M sensor requests.

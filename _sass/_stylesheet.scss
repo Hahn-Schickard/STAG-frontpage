@@ -59,7 +59,8 @@ footer, header, hgroup, menu, nav, section {
 }
 
 ol { 
-  margin: 30px;
+  /*margin: 30px;*/
+  margin: -20px 0px 30px 30px;
   list-style: decimal;
 }
 ul {
@@ -274,7 +275,7 @@ Full-Width Styles
 
 .project_logo {
   position: absolute;
-  top:0px;
+  top:-6px;
   right:0px;
 }
 
