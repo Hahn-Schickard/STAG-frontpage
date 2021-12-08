@@ -3,8 +3,7 @@ layout: default
 title: Features
 permalink: /features/
 ---
-
-STAG as a software system is characterised by application features as well as technical features, which are summerised in the following listing:  
+  
 ## Application Features:
 1. **Simple application**  
 The most important goal of STAG is its ease of use. The sensor developer himself should have no or as little effort as possible to connect a sensor to STAG and thus also to the IT world. A sensor should register with STAG and then automatically become visible to the IT world via the interface and thus accessible to other systems.  
