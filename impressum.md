@@ -53,6 +53,6 @@ permalink: /impressum/
     angewandte Forschung
     e.V.
     <a href="https://www.hahn-schickard.de/" target="_blank"
-        class="link-external-blank">www.hahn-schickard.de</a>
+        class="link-external-k">www.hahn-schickard.de</a>
 </p>
 
