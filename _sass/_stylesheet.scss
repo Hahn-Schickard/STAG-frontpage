@@ -247,6 +247,10 @@ Full-Width Styles
   background-size: auto;
   background-origin: padding-box;
   background-clip: border-box;
+
+  h1 {
+    margin-right: 110px;
+  }
 }
 
 #forkme_banner {
@@ -344,6 +348,18 @@ Small Device Styles
 @media screen and (max-width: 480px) {
   body {
     font-size:14px;
+  }
+
+  #header_inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .menu_link {
+      width: 40%;
+      margin: 5px;
+      text-align: center;
+    }
   }
 
   #downloads {
