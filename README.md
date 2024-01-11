@@ -34,3 +34,11 @@ To generate the static page and serve it on a webpage, run the following command
 ```bash
 bundle exec jekyll serve
 ```
+
+If you want to just generate the html files for the static page, you can run the following: 
+
+```bash
+bundle exec jekyll build -d public
+```
+
+This will put all of the static page files inside `public` directory.
