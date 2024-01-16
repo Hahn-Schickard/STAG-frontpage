@@ -8,8 +8,6 @@ baseurl: "/software-sollutions/application-engineering/internal/opc_ua_dev_group
 url: "" 
 
 theme: bulma-clean-theme
-plugins:
-  - jekyll-feed
 
 fixed_navbar: top
 footer_menu: footer
