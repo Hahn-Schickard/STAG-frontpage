@@ -1,0 +1,50 @@
+- title: Our team
+  images:
+    - link: /assets/img/d_girdvainis.jpg
+      alt: Dovydas Girdvainis
+      description: |-
+        ### Dovydas Girdvainis
+        **Team leader**
+        
+        <span class="icon">
+          <i class="fas fa-envelope"></i>
+        </span>
+        <a href="mailto:Dovydas.Girdvainis@hahn-schickard.de">Dovydas.Girdvainis@hahn-schickard.de</a>
+
+        <span class="icon">
+          <i class="fas fa-phone"></i>
+        </span>
+        <a href="tel:+497721943170">+49 7721 943 170</a>
+      ratio: is-square
+    - link: /assets/img/g_marki.jpg
+      alt: Gerhard Marki
+      description: |-
+        ### Gerhard Marki
+        **Developer**
+        
+        <span class="icon">
+          <i class="fas fa-envelope"></i>
+        </span>
+        <a href="mailto:Gerhard.Marki@hahn-schickard.de">Gerhard.Marki@hahn-schickard.de</a>
+
+        <span class="icon">
+          <i class="fas fa-phone"></i>
+        </span>
+        <a href="tel:+497721943175">+49 7721 943 175</a>
+      ratio: is-square
+    - link: /assets/img/c_rathfelder.jpg
+      alt: Christoph Rathfelder
+      description: |-
+        ### Christoph Rathfelder
+        **Consultant**
+        
+        <span class="icon">
+          <i class="fas fa-envelope"></i>
+        </span>
+        <a href="mailto:Christoph.Rathfelder@hahn-schickard.de">Christoph.Rathfelder@hahn-schickard.de</a>
+
+        <span class="icon">
+          <i class="fas fa-phone"></i>
+        </span>
+        <a href="tel:+497721943161">+49 7721 943 161</a>
+      ratio: is-square

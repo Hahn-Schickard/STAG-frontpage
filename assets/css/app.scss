@@ -1,0 +1,67 @@
+---
+---
+$primary: #333333;
+// $primary-shade: #343434;
+$navbar-item-img-max-height: 3.5rem;
+// Import Main CSS file from theme
+@import "main";
+
+.is-vertical-center {
+    display: flex;
+    align-items: center;
+}
+
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.site-content {
+  flex: 1;
+}
+
+button {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+
+dark-mode-toggle {
+  display: inline-block;
+  margin: 0 0 0 var(--spacing-small);
+  padding: 0;
+  width: var(--searchbar-height);
+  height: var(--searchbar-height);
+  background: none;
+  border: none;
+  border-radius: var(--searchbar-height);
+  vertical-align: middle;
+  text-align: center;
+  line-height: var(--searchbar-height);
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  cursor: pointer;
+}
+
+dark-mode-toggle > svg {
+  transition: transform var(--animation-duration) ease-in-out;
+}
+
+dark-mode-toggle:active > svg {
+  transform: scale(.5);
+}
+
+dark-mode-toggle:hover {
+  background-color: rgba(0,0,0,.03);
+}
+
+html.dark-mode dark-mode-toggle:hover {
+  background-color: rgba(0,0,0,.18);
+}

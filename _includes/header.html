@@ -1,14 +1,58 @@
-<header id="header_inner">  
-  <h1 style="text-align:left; padding: inherit;">STAG - Sensor Technology Adapter Gateway</h1>
-    <a class="menu_link" href="{{site.baseurl}}/">Home</a>
-    <a class="menu_link" href="{{site.baseurl}}/features/">Features</a>  
-    <!-- <a class="menu_link" href="{{site.baseurl}}/project/">Project</a> -->
-    <a class="menu_link" href="{{site.baseurl}}/publications/">Publications</a>
-    <a class="menu_link" href="{{site.baseurl}}/aboutus/">About us</a>  
-    <div>
-      <a href="http://stag.hahn-schickard.de">
-      <img src="{{site.baseurl}}/assets/img/STAG_web.png" height="170px" class="project_logo"  id="right"/>
-      </a>
+<nav class="navbar is-primary {% if site.fixed_navbar %} is-fixed-{{ site.fixed_navbar }} {% endif %}" x-data="{ openNav: false }">
+    <div class="container">
+        <div class="navbar-brand">
+            <a href="{{ site.baseurl }}/" class="navbar-item p-0 image">
+                {% if site.logo %}
+                    <img class="has-ratio" src="{{ site.logo }}" width="300" height="500" alt="Logo">
+                {% else %}
+                    {{ site.title }}
+                {% endif %}
+            </a><!--  -->
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu" :class="{ 'is-active': openNav }" x-on:click="openNav = !openNav">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-menu" id="navMenu" :class="{ 'is-active': openNav }">
+            <div class="navbar-start">
+                {% if site.data.navigation %}
+                {% for item in site.data.navigation %}
+                    {% if item.dropdown %}
+                    <div class="navbar-item has-dropdown is-hoverable {% if site.fixed_navbar == 'bottom' %} has-dropdown-up {% endif %}">
+                        <a href="{{ item.link | relative_url }}" class="navbar-link {% if page.url contains item.link %}is-active{% endif %}">{{ item.name }}</a>
+                        <div class="navbar-dropdown">
+                            {% for subitem in item.dropdown %}
+                            <a href="{{ subitem.link | relative_url }}" class="navbar-item {% if subitem.link == page.url %}is-active{% endif %}">{{ subitem.name }}</a>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    {% else %}
+                    <a href="{{ item.link | relative_url }}" class="navbar-item {% if item.link == page.url %}is-active{% endif %}">{{ item.name }}</a>
+                    {% endif %}
+                {% endfor %}
+                {% endif %}
+            </div>
+            <div class="navbar-end">
+                {% if site.gh_sponsor %}
+                <a class="navbar-item" href="https://github.com/sponsors/{{ site.gh_sponsor }}">
+                    <span class="icon gh-sponsor"><i class="fas fa-heart"></i></span>
+                    <span>Sponsor</span>
+                </a>
+                {% endif %}
+                {% if site.contact_us %}
+                <a class="navbar-item" href="{{ site.baseurl }}/{{ site.contact_us }}">
+                    <span class="icon"><i class="fas fa-regular fa-envelope"></i></span>
+                    <span>Contact us</span>
+                </a>
+                {% endif %}
+                <!-- <script type="text/javascript" src="{{ base.url | prepend: site.url }}/assets/js/dark_mode_togle.js">
+                    DarkModeToggle.init()
+                </script>
+                <div class="navbar-item">
+                    <dark-mode-toggle title="Toggle Light/Dark Mode"><svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px" fill="#FE9700"><rect fill="none" height="24" width="24"></rect><path d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27 C17.45,17.19,14.93,19,12,19c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z" opacity=".3"></path><path d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg></dark-mode-toggle>
+                </div>     -->
+            </div>
+        </div>
     </div>
-</header>
-<div style="height: 10px; background-color: #00ACf1"></div>
+</nav>

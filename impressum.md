@@ -1,10 +1,11 @@
 ---
-layout: default
+layout: page
 title: Impressum
 permalink: /impressum/
 ---
 
-## Publisher
+# Publisher
+
 <p class="bodytext"><strong>Hahn-Schickard-Gesellschaft für angewandte Forschung e.V.
     </strong>&nbsp;<br>
     Wilhelm-Schickard-Straße 10<br> 78052 Villingen-Schwenningen<br> Phone: +49 7721 943-0<br> Fax:
