@@ -3,7 +3,7 @@
         <div class="navbar-brand">
             <a href="{{ site.baseurl }}/" class="navbar-item p-0 image">
                 {% if site.logo %}
-                    <img class="has-ratio" src="{{ site.logo }}" width="300" height="500" alt="Logo">
+                    <img class="has-ratio" src="{{site.baseurl}}/{{ site.logo }}" width="300" height="500" alt="Logo">
                 {% else %}
                     {{ site.title }}
                 {% endif %}
