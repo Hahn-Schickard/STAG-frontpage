@@ -3,9 +3,7 @@ logo: /assets/img/stag_icon_wblue.png
 favicon: /assets/img/favicon.ico
 email: stag@hahn-schickard.de
 description: >- 
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Sensor Technology Adapter Gateway (STAG) - modular integration software for Industry 4.0
 baseurl: "/software-sollutions/application-engineering/internal/opc_ua_dev_group/gateway-project/homepage" 
 url: "" 
 
