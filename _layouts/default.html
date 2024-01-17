@@ -22,8 +22,7 @@
         {% include hero.html %}
     {% endunless %}
     {% include callouts.html %}
-    <section class="section site-content">
-        <div class="container">
+    <section class="section site-content is-fluid">
             <div class="columns is-multiline">
                 {% if page.menubar_toc %}
                 <div class="column is-4-desktop is-4-tablet">
@@ -48,7 +47,6 @@
                 </div>
                 {% endif %}
             </div>
-        </div>
     </section>
     {% unless page.hide_footer %}
         {% include footer.html %}

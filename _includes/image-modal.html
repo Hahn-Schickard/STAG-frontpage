@@ -1,6 +1,6 @@
 <div x-data="{ open: false }" markdown="0">
     <a x-on:click="open = true" title="View large image">
-        <div class="container">
+        <div class="container is-fluid">
             <img class="has-ratio" src="{{ include.link | absolute_url }}" alt="{{ include.alt }}" width="{{ include.width }}" height="{{ include.height }}">
         </div>
     </a>
