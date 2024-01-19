@@ -5,7 +5,7 @@ layout: page
 {% if page.panels %}
     {% assign panels=site.data.[page.panels] %}
     {% for panel in panels %}
-        <nav class="panel"></nav>
+        <nav class="panel">
         <p class="panel-heading">
             {{ panel.title }}
         </p>
