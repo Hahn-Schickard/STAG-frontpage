@@ -29,39 +29,3 @@ button {
   overflow: hidden;
   outline: none;
 }
-
-dark-mode-toggle {
-  display: inline-block;
-  margin: 0 0 0 var(--spacing-small);
-  padding: 0;
-  width: var(--searchbar-height);
-  height: var(--searchbar-height);
-  background: none;
-  border: none;
-  border-radius: var(--searchbar-height);
-  vertical-align: middle;
-  text-align: center;
-  line-height: var(--searchbar-height);
-  font-size: 22px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  user-select: none;
-  cursor: pointer;
-}
-
-dark-mode-toggle > svg {
-  transition: transform var(--animation-duration) ease-in-out;
-}
-
-dark-mode-toggle:active > svg {
-  transform: scale(.5);
-}
-
-dark-mode-toggle:hover {
-  background-color: rgba(0,0,0,.03);
-}
-
-html.dark-mode dark-mode-toggle:hover {
-  background-color: rgba(0,0,0,.18);
-}
