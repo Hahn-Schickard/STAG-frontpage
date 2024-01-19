@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Home
+callouts: landing_callouts
 ---
 
 # Description

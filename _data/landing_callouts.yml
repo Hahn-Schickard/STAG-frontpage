@@ -1,0 +1,18 @@
+style: is-light
+height: is-small
+items:
+  - title: Feature Overview
+    subtitle: What can it do?
+    icon: fa-rocket
+    call_to_action_name: Features
+    call_to_action_link: /features/
+  - title: System Architecture
+    subtitle: How is it built?
+    icon: fa-landmark
+    call_to_action_name: Architecture
+    call_to_action_link: /architecture
+  - title: Documentation
+    subtitle: Where can I learn more?
+    icon: fa-book
+    call_to_action_name: Publications
+    call_to_action_link: /publications/
