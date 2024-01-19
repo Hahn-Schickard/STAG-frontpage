@@ -1,10 +1,15 @@
 ---
 ---
 $primary: #333333;
-// $primary-shade: #343434;
 $navbar-item-img-max-height: 3.5rem;
 // Import Main CSS file from theme
 @import "main";
+
+@property --stag-cyan{
+  syntax: "<color>";
+  inherits: false;
+  initial-value: rgb(0,172,241);
+}
 
 .is-vertical-center {
     display: flex;
@@ -21,8 +26,9 @@ $navbar-item-img-max-height: 3.5rem;
   flex: 1;
 }
 
-button {
-  background-color: transparent;
+.button {
+  color: white;
+  background-color:var(--stag-cyan);
   background-repeat: no-repeat;
   border: none;
   cursor: pointer;
