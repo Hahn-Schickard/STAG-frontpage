@@ -1,0 +1,38 @@
+{% if page.card_items %}
+    {% assign items=site.data.[page.card_items] %}
+        {% for item in items %}
+        <div class="columns">
+            <div class="column">
+                <div class="card">
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-left">
+                                <i class="fas {{ item.left_icon }} fa-4x"></i>
+                            </div>
+                            <div class="media-content">
+                                <p class="title is-4">{{ item.left_title }}</p>
+                                <p>{{  item.left_description }}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-left">
+                                <i class="fas {{ item.right_icon }} fa-4x"></i>
+                            </div>
+                            <div class="media-content">
+                                <p class="title is-4">{{ item.right_title }}</p>
+                                <p>{{  item.right_description }}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+{% endif %}
