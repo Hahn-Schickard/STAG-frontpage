@@ -16,3 +16,8 @@ items:
     icon: fa-book
     call_to_action_name: Publications
     call_to_action_link: /publications/
+  - title: About us
+    subtitle: Who are we?
+    icon: fa-user
+    call_to_action_name: About us
+    call_to_action_link: /about_us/
