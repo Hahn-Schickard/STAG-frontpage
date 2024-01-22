@@ -1,0 +1,28 @@
+- image: assets/img/architecture_wb.png
+  width: "700"
+  height: "300"
+  description: |-
+    # Just some text
+
+    in markdown format
+- image: assets/img/information_model_wb.png
+  width: "700"
+  height: "300"
+  description: |-
+    # Just some text
+
+    in markdown format
+- image: assets/img/data_variant_wb.png
+  width: "700"
+  height: "300"
+  description: |-
+    # Just some text
+
+    in markdown format
+- image: assets/img/device_abstraction.png
+  width: "400"
+  height: "600"
+  description: |-
+    # Just some text
+
+    in markdown format
