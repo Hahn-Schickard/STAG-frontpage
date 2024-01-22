@@ -6,12 +6,16 @@
         {% if item.title %}
             <h1 id="{{ item.title | replace: ' ', '_'}}" class="title">{{ item.title }}</h1>
         {% endif %}
-        <div class="media">
+        <div class="columns">
             {% if item.image %}
+                <div class="column">
                 {% include image-modal.html link=item.image width=item.width height=item.height %}
+                </div>
             {% endif %}
-            <div class="content is-mobile">
-               {{  item.description | markdownify }}
+            <div class="column">
+                <div class="content">
+                {{  item.description | markdownify }}
+                </div>
             </div>
         </div>
     </div>
