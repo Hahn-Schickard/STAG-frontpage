@@ -1,4 +1,4 @@
-- left_icon: fa-rocket
+- left_icon: fa-magic
   left_title: Simple
   left_description: |-
     The most important goal of STAG is its ease of use. 
@@ -8,7 +8,7 @@
     also to the IT world. A sensor should register with STAG 
     and then automatically become visible to the IT world via 
     the interface and thus accessible to other systems.  
-  right_icon: fa-rocket
+  right_icon: fa-boxes
   right_title: Modular
   right_description: |-
     The architecture of STAG has been defined in such a way 
@@ -16,12 +16,12 @@
     or protocol adapters. This modular structure makes it 
     possible to add further interfaces to STAG at a later 
     date or to switch variably between different protocols. 
-- left_icon: fa-rocket
+- left_image: assets/img/cpp_icon.svg
   left_title: C++ based
   left_description: |-
     STAG is completely written in C/C++ with cmake as build 
     tool and conan for dependency and library management. 
-  right_icon: fa-rocket
+  right_icon: fa-tv
   right_title: Platform independent
   right_description: |-
     STAG can be compiled an run on Linux as well as Windows 
