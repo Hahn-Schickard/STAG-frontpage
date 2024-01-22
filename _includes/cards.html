@@ -3,11 +3,14 @@
 {% for item in items %}
 <div class="card is-flex is-mobile">
     <div class="card-content">
+        {% if item.title %}
+            <h1 id="{{ item.title | replace: ' ', '_'}}" class="title">{{ item.title }}</h1>
+        {% endif %}
         <div class="media">
             {% if item.image %}
                 {% include image-modal.html link=item.image width=item.width height=item.height %}
             {% endif %}
-            <div class="content">
+            <div class="content is-mobile">
                {{  item.description | markdownify }}
             </div>
         </div>
