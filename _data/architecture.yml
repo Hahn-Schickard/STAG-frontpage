@@ -1,28 +1,45 @@
 - image: assets/img/architecture_wb.png
   width: "700"
   height: "300"
+  gap: is-5
+  title: Module Overview
   description: |-
-    # Just some text
+    ## Split into three
 
-    in markdown format
+    STAG system is logically spilt into three main parts: 
+    1. **Technology Adapter Implementation** - various modules 
+    that implement specific communication protocols that 
+    create  `Device` abstractions for the internal 
+    information model.
+    2. **Core** - internal modules that provide the base 
+    functionality for the system as a whole.
+    3. **Data Consumer Adapter Implementations** - various 
+    modules that provide access to the internal information 
+    model and the stored `Device` abstractions.
+
+    ## Expandable at runtime
+    System administrators can add new **Technology Adapter** and 
+    **Data Consumer Adapter Implementations** without shuting down 
+    the system. The only part that is not expandable at runtime is the **Core**. 
+    
+    
 - image: assets/img/information_model_wb.png
   width: "700"
   height: "300"
+  gap: is-5
+  title: Information Model
   description: |-
-    # Just some text
+    ## Custom model for simpler access
 
-    in markdown format
+    STAG System defines a custom `Device` abstraction which allows 
+    **Technology Adapter Implementations** to model data so it is 
+    accessible to all **Data Consumer Adapter Implementations**
 - image: assets/img/data_variant_wb.png
   width: "700"
   height: "300"
+  gap: is-5
+  title: Data Model
   description: |-
-    # Just some text
-
-    in markdown format
-- image: assets/img/device_abstraction.png
-  width: "400"
-  height: "600"
-  description: |-
-    # Just some text
+    ## Standardized data types for ease of use
 
     in markdown format
