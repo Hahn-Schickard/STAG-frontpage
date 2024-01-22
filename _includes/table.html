@@ -1,0 +1,26 @@
+{% if include.table %}
+{% assign table=site.data.[include.table] %}
+
+{% if table.title %}
+<h3>{{ table.title }}</h3>
+{% endif %}
+
+<table class="table">
+    <thead>
+        <tr>
+            {% for column in table.header %}
+                <th>{{ column.title }}</th>
+            {% endfor %}              
+        </tr>
+    </thead>
+    <tbody>
+        {% for row in table.rows %}
+        <tr>
+            {% for cell in row.cells %}
+                <td> {{ cell.value }} </td>
+            {% endfor %}
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endif %}
