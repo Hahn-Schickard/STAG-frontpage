@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About Us
-permalink: /aboutus/
+permalink: /about_us/
 gallery: team
 ---
 
