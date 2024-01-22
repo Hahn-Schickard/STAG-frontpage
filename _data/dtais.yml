@@ -1,0 +1,8 @@
+title: Data Consumer Adapters
+header:
+  - title: "Technology"
+  - title: "Version"
+rows: 
+  - cells: 
+      - value: "OPC UA"
+      - value: ""

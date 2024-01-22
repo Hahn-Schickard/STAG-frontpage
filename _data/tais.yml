@@ -1,0 +1,14 @@
+title: Technology Adapters
+header:
+  - title: "Technology"
+  - title: "Version"
+rows: 
+  - cells:
+      - value: "LwM2M"
+      - value: "1.0"
+  - cells:
+      - value: "Modbus RTU"
+      - value: ""
+  - cells:
+      - value: "SOAP"
+      - value: ""
