@@ -7,7 +7,13 @@
                     <div class="card-content">
                         <div class="media">
                             <div class="media-left">
+                                {% if item.left_icon %}
                                 <i class="fas {{ item.left_icon }} fa-4x"></i>
+                                {% elsif item.left_image %}
+                                <figure class="image is-64x64">
+                                    <img src="{{ site.baseurl }}/{{ item.left_image }}">
+                                </figure>
+                                {% endif %}
                             </div>
                             <div class="media-content">
                                 <p class="title is-4">{{ item.left_title }}</p>
@@ -23,7 +29,13 @@
                     <div class="card-content">
                         <div class="media">
                             <div class="media-left">
+                                {% if item.right_icon %}
                                 <i class="fas {{ item.right_icon }} fa-4x"></i>
+                                {% elsif item.right_image %}
+                                <figure class="image is-64x64">
+                                    <img src="{{ site.baseurl }}/{{ item.right_image }}">
+                                </figure>
+                                {% endif %}
                             </div>
                             <div class="media-content">
                                 <p class="title is-4">{{ item.right_title }}</p>
