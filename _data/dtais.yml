@@ -1,8 +1,10 @@
 title: Data Consumer Adapters
 header:
   - title: "Technology"
-  - title: "Version"
+  - title: "Description"
+  - title: "Library"
 rows: 
   - cells: 
       - value: "OPC UA"
-      - value: ""
+      - value: "OPC UA Server"
+      - value: "[open62541](https://www.open62541.org/)"

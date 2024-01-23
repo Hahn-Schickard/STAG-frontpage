@@ -1,4 +1,4 @@
-- left_icon: fa-magic
+- left_image: assets/img/simple.png
   left_title: Simple
   left_description: |-
     The most important goal of STAG is its ease of use. 
@@ -8,20 +8,21 @@
     also to the IT world. A sensor should register with STAG 
     and then automatically become visible to the IT world via 
     the interface and thus accessible to other systems.  
-  right_icon: fa-boxes
+  right_image: assets/img/modular.png
   right_title: Modular
   right_description: |-
     The architecture of STAG has been defined in such a way 
     that STAG itself can be extended by various technology 
     or protocol adapters. This modular structure makes it 
-    possible to add further interfaces to STAG at a later 
-    date or to switch variably between different protocols. 
+    possible to add further interfaces to sensor systems
+    or cloud based solutions at a later date or to switch 
+    between different protocols. 
 - left_image: assets/img/cpp_icon.svg
   left_title: C++ based
   left_description: |-
     STAG is completely written in C/C++ with cmake as build 
     tool and conan for dependency and library management. 
-  right_icon: fa-tv
+  right_image: assets/img/platform_independent.png
   right_title: Platform independent
   right_description: |-
     STAG can be compiled an run on Linux as well as Windows 

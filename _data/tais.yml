@@ -1,14 +1,18 @@
 title: Technology Adapters
 header:
   - title: "Technology"
-  - title: "Version"
+  - title: "Description"
+  - title: "Library"
 rows: 
   - cells:
       - value: "LwM2M"
-      - value: "1.0"
+      - value: "Lightweight Machine to Machine communication"      
+      - value: "internal"
   - cells:
       - value: "Modbus RTU"
-      - value: ""
+      - value: "Modbus RTU"
+      - value: "[libmodbus](https://libmodbus.org/)"
   - cells:
       - value: "SOAP"
-      - value: ""
+      - value: "SOAP"
+      - value: "[gsoap](https://sourceforge.net/projects/gsoap2/)"
