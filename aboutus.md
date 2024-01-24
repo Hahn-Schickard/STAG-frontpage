@@ -15,6 +15,3 @@ Working in close partnership with the industry, [Hahn-Schickard](https://www.hah
 
 The STAG development is currently driven by a sub group oft the Application Engineering group. As a public available Open Source projects the development is not limited to Hahn-Schickard. If you are interests, get in touch with us and join our [development team on github](https://github.com/Hahn-Schickard){:target="_blank"}.
 <br clear="right"/>
-
-The STAG development is currently driven by a sub group oft the Application Engineering group. As a public available Open Source projects the development is not limited to Hahn-Schickard. If you are interests, get in touch with us and join our [development team on github](https://github.com/Hahn-Schickard)
-
