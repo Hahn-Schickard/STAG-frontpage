@@ -45,3 +45,11 @@ $stag-cyan: #00ACf1;
   justify-content: center;
   align-items: center;
 }
+
+.narrow {
+  max-width: 1000px;
+}
+
+.responsive_table {
+  overflow-x: auto;
+}
