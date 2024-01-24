@@ -7,4 +7,4 @@ rows:
   - cells: 
       - value: "OPC UA"
       - value: "OPC UA Server"
-      - value: "[open62541](https://www.open62541.org/)"
+      - value: '[open62541](https://www.open62541.org/){:target="_blank"}'

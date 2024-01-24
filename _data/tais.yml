@@ -11,8 +11,8 @@ rows:
   - cells:
       - value: "Modbus RTU"
       - value: "Modbus RTU"
-      - value: "[libmodbus](https://libmodbus.org/)"
+      - value: '[libmodbus](https://libmodbus.org/){:target="_blank"}'
   - cells:
       - value: "SOAP"
       - value: "SOAP"
-      - value: "[gsoap](https://sourceforge.net/projects/gsoap2/)"
+      - value: '[gsoap](https://sourceforge.net/projects/gsoap2/){:target="_blank"}'
