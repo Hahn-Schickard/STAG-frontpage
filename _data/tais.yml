@@ -1,18 +1,22 @@
 title: Technology Adapters
 header:
-  - title: "Technology"
-  - title: "Description"
-  - title: "Used Implementation"
+  - title: Technology
+  - title: Version
+  - title: Description
+  - title: Used Implementation
 rows: 
   - cells:
-      - value: "LwM2M"
-      - value: "Lightweight Machine to Machine communication"      
-      - value: "internal"
+      - value: '[LwM2M](https://omaspecworks.org/what-is-oma-specworks/iot/lightweight-m2m-lwm2m/){:target="_blank"}'
+      - value: 1.1.1
+      - value: Wireless CoAP based machine to machine communication protocol    
+      - value: internal
   - cells:
-      - value: "Modbus RTU"
-      - value: "Modbus RTU"
+      - value: '[Modbus RTU](https://www.modbus.org/docs/Modbus_over_serial_line_V1.pdf){:target="_blank"}' 
+      - value: 1.0.2
+      - value: RS232 und RS485 wired Client/Server communication protocol
       - value: '[libmodbus](https://libmodbus.org/){:target="_blank"}'
   - cells:
-      - value: "SOAP"
-      - value: "SOAP"
+      - value: '[SOAP](https://datatracker.ietf.org/doc/html/draft-box-http-soap-00){:target="_blank"}'
+      - value: 1.2
+      - value: Wireless HTTP based object access protocol
       - value: '[gsoap](https://sourceforge.net/projects/gsoap2/){:target="_blank"}'
