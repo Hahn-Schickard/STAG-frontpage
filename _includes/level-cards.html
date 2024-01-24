@@ -1,50 +1,22 @@
 {% if page.level_card_items %}
-    {% assign items=site.data.[page.level_card_items] %}
-        {% for item in items %}
-        <div class="tile is-ancestor">
-            <div class="tile">
-                <div class="card">
-                    <div class="card-content">
-                        <div class="media centered">
-                            <div class="media-left">
-                                {% if item.left_icon %}
-                                <i class="fas {{ item.left_icon }} fa-4x colored-fa"></i>
-                                {% elsif item.left_image %}
-                                <figure class="image is-64x64">
-                                    <img src="{{ site.baseurl }}/{{ item.left_image }}">
-                                </figure>
-                                {% endif %}
-                            </div>
-                            <div class="media-content">
-                                <p class="title is-4">{{ item.left_title }}</p>
-                                <p>{{  item.left_description | markdownify  }}</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="tile">
-                <div class="card">
-                    <div class="card-content">
-                        <div class="media centered">
-                            <div class="media-left">
-                                {% if item.right_icon %}
-                                <i class="fas {{ item.right_icon }} fa-4x colored-fa"></i>
-                                {% elsif item.right_image %}
-                                <figure class="image is-64x64">
-                                    <img src="{{ site.baseurl }}/{{ item.right_image }}">
-                                </figure>
-                                {% endif %}
-                            </div>
-                            <div class="media-content">
-                                <p class="title is-4">{{ item.right_title }}</p>
-                                <p>{{  item.right_description | markdownify  }}</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+{% assign items=site.data.[page.level_card_items] %}
+{% for item in items %}
+<div class="tile is-ancestor">
+    <div class="tile is-parent">
+        <div class="tile {% unless item.right %} centered {% endunless %}">
+            {% if item.right %}
+            {% include card.html icon=item.left.icon title=item.left.title description=item.left.description %}
+            {% else %}
+            {% include card.html icon=item.left.icon title=item.left.title description=item.left.description narrow=true %}
+            {% endif %}
         </div>
-    {% endfor %}
+        
+        {% if item.right %}
+        <div class="tile">
+            {% include card.html icon=item.right.icon title=item.right.title description=item.right.description %}
+        </div>
+        {% endif %}
+    </div>
+</div>
+{% endfor %}
 {% endif %}
