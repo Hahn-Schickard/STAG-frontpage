@@ -2,7 +2,7 @@ title: Data Consumer Adapters
 header:
   - title: "Technology"
   - title: "Description"
-  - title: "Library"
+  - title: "Used Implementation"
 rows: 
   - cells: 
       - value: "OPC UA"

@@ -2,7 +2,7 @@ title: Technology Adapters
 header:
   - title: "Technology"
   - title: "Description"
-  - title: "Library"
+  - title: "Used Implementation"
 rows: 
   - cells:
       - value: "LwM2M"
