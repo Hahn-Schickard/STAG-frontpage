@@ -1,6 +1,8 @@
 - title: Our team
   images:
     - link: /assets/img/d_girdvainis.jpg
+      width: 600
+      height: 300
       alt: Dovydas Girdvainis
       description: |-
         ### Dovydas Girdvainis
@@ -15,8 +17,9 @@
           <i class="fas fa-phone"></i>
         </span>
         <a href="tel:+497721943170">+49 7721 943 170</a>
-      ratio: is-square
     - link: /assets/img/g_marki.jpg
+      width: 518
+      height: 300
       alt: Gerhard Marki
       description: |-
         ### Gerhard Marki
@@ -31,8 +34,9 @@
           <i class="fas fa-phone"></i>
         </span>
         <a href="tel:+497721943175">+49 7721 943 175</a>
-      ratio: is-square
     - link: /assets/img/c_rathfelder.jpg
+      width: 600
+      height: 300
       alt: Christoph Rathfelder
       description: |-
         ### Christoph Rathfelder
@@ -47,4 +51,3 @@
           <i class="fas fa-phone"></i>
         </span>
         <a href="tel:+497721943161">+49 7721 943 161</a>
-      ratio: is-square
