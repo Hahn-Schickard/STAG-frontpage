@@ -39,3 +39,9 @@ $stag-cyan: #00ACf1;
   color: white;
   background-color:$stag-cyan;
 }
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

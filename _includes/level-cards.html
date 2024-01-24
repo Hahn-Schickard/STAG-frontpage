@@ -5,7 +5,7 @@
             <div class="tile">
                 <div class="card">
                     <div class="card-content">
-                        <div class="media">
+                        <div class="media centered">
                             <div class="media-left">
                                 {% if item.left_icon %}
                                 <i class="fas {{ item.left_icon }} fa-4x colored-fa"></i>
@@ -17,7 +17,7 @@
                             </div>
                             <div class="media-content">
                                 <p class="title is-4">{{ item.left_title }}</p>
-                                <p>{{  item.left_description }}</p>
+                                <p>{{  item.left_description | markdownify  }}</p>
                             </div>
                         </div>
                     </div>
@@ -27,7 +27,7 @@
             <div class="tile">
                 <div class="card">
                     <div class="card-content">
-                        <div class="media">
+                        <div class="media centered">
                             <div class="media-left">
                                 {% if item.right_icon %}
                                 <i class="fas {{ item.right_icon }} fa-4x colored-fa"></i>
@@ -39,7 +39,7 @@
                             </div>
                             <div class="media-content">
                                 <p class="title is-4">{{ item.right_title }}</p>
-                                <p>{{  item.right_description }}</p>
+                                <p>{{  item.right_description | markdownify  }}</p>
                             </div>
                         </div>
                     </div>
