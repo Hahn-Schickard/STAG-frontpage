@@ -55,4 +55,15 @@
   description: |-
     ## Standardized data types for ease of use
 
-    in markdown format
+    **STAG** defines 8 primitive data types to model your `Device` abstractions.
+
+    These data types have been specifically chosen, to cover most use-cases without 
+    cluttering the model namespace with similar data types. They are as follows:
+
+      1. `Boolean` - represents *true* or *false* values
+      2. `Integer` - represents integers between **[-2³¹-1;2³¹-1]** for *32 bit* systems or **[-2⁶³-1;2⁶³-1]** for *64 bit* systems
+      3. `Unsigned Integer` - represents integers between **[0;2³²]** for *32 bit* systems or **[0;2⁶⁴]** for *64 bit* systems
+      4. `Double` - represents double precision floating numbers as defined by [IEEE 754-1985](https://standards.ieee.org/ieee/754/993/){:target="_blank"}
+      6. `String` - represents human readable text
+      7. `Opaque` - represents binary information where each byte is stored as a value in a vector
+      8. `Time` - represents timestamp values
