@@ -1,10 +1,12 @@
 title: Data Consumer Adapters
 header:
-  - title: "Technology"
-  - title: "Description"
-  - title: "Used Implementation"
+  - title: Technology
+  - title: Version
+  - title: Description
+  - title: Used Implementation
 rows: 
   - cells: 
-      - value: "OPC UA"
-      - value: "OPC UA Server"
+      - value: '[OPC UA](https://opcfoundation.org/){:target="_blank"}'
+      - value: 1.05
+      - value: Client/Server communication standard between sensors and could applications 
       - value: '[open62541](https://www.open62541.org/){:target="_blank"}'
