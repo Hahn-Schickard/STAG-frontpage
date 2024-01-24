@@ -43,5 +43,6 @@
       enable sensor/actor technologies to create `Device` abstractions, and the 
       **Data Consumer Adapter Interface**, which allows data visualization
       and management software to interact with the generated `Device` abstractions. 
+      
       Currently supported implementations of these interfaces are listed bellow in
       their respective tables.
