@@ -1,32 +1,29 @@
 - left_image: assets/img/simple.png
   left_title: Simple
   left_description: |-
-    The most important goal of STAG is its ease of use. 
-    
-    The sensor developer himself should have no or as little 
-    effort as possible to connect a sensor to STAG and thus 
-    also to the IT world. A sensor should register with STAG 
-    and then automatically become visible to the IT world via 
-    the interface and thus accessible to other systems.  
+    Factory engineers should have to spend as little 
+    effort as possible to connect a new sensor to **STAG** system
+    and thus to the IT world. Individual sensor systems are 
+    automatically registered and become visible to the IT world.  
   right_image: assets/img/modular.png
   right_title: Modular
   right_description: |-
-    The architecture of STAG has been defined in such a way 
-    that STAG itself can be extended by various technology 
-    or protocol adapters. This modular structure makes it 
-    possible to add further interfaces to sensor systems
-    or cloud based solutions at a later date or to switch 
-    between different protocols. 
+    **STAG** has been designed from the ground up to be a modular
+    system. This structure makes it possible to add new interfaces 
+    to sensor systems or cloud based solutions at a later date 
+    without having to stop the system. 
 - left_image: assets/img/cpp_icon.svg
   left_title: C++ based
   left_description: |-
-    STAG is completely written in C/C++ with cmake as build 
-    tool and conan for dependency and library management. 
+    **STAG** is completely written in *C++17* with 
+    [Cmake](https://cmake.org/){:target="_blank"} as its build automation
+    tool and [conan](https://conan.io/){:target="_blank"} for 
+    dependency management. Thus enabling support for a
+    wide range of systems while still offering modern *C++* features.
   right_image: assets/img/platform_independent.png
   right_title: Platform independent
   right_description: |-
-    STAG can be compiled an run on Linux as well as Windows 
-    and Mac. Additional, it is compatible with X86 and ARM 
-    architecture and thus can be executed on small embedded 
-    Linux device like Raspberry as well as on virtualized 
-    backend servers. 
+    **STAG** can be executed on Linux, Windows and Mac machines. 
+    Additionally, it is compatible with both *x86* and *ARM* 
+    architectures, thus it is able to work on both small embedded 
+    Linux devices like Raspberry and large backend servers. 
