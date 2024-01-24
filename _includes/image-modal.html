@@ -1,7 +1,7 @@
 <div x-data="{ open: false }" markdown="0">
     <a x-on:click="open = true" title="View large image">
         <div class="container is-fluid">
-            <img class="has-ratio" src="{{ include.link | absolute_url }}"  width="{{ include.width }}" height="{{ include.height }}">
+            <img src="{{ include.link | absolute_url }}"  width="{{ include.width }}" height="{{ include.height }}">
         </div>
     </a>
     <div class="modal" x-bind:class="open ? 'is-active' : ''" x-cloak>
