@@ -4,7 +4,7 @@ favicon: /assets/img/favicon.ico
 email: stag@hahn-schickard.de
 description: >- 
   Sensor Technology Adapter Gateway (STAG) - modular integration software for Industry 4.0
-baseurl: "/software-sollutions/application-engineering/internal/opc_ua_dev_group/gateway-project/homepage" 
+baseurl: "" 
 url: "" 
 
 theme: bulma-clean-theme
