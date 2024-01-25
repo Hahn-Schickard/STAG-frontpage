@@ -8,7 +8,7 @@
     <div class="card-content">
         <div class="columns">
             {% if item.image %}
-                <div class="column {% if item.gap %} {{ item.gap }}-desktop {% endif %}">
+                <div class="column {% if item.gap %} {{ item.gap }}-desktop {% endif %} centered">
                 {% include image-modal.html link=item.image width=item.width height=item.height %}
                 </div>
             {% endif %}
