@@ -1,0 +1,22 @@
+<section class="hero {% if page.hero_height %} {{ page.hero_height }} {% else %} is-medium {% endif %} is-bold is-primary" {% if page.hero_image %} style="background: url('{{ page.hero_image }}') no-repeat center center; background-size: cover;" {% elsif page.hero_color %} style="background-image: {{ page.hero_color }}" {% endif %}>
+    <div class="hero-body {% if page.hero_darken %} hero-darken {% endif %}">
+        <div class="level is-mobile">
+            <div class="level-left">
+                <h1 class="title">{{ page.title }}</h1>
+                {% if page.subtitle %}
+                <p class="subtitle is-3">{{ page.subtitle }}</p>
+                {% endif %}
+                {% if page.hero_link %}
+                    <a href="{{ page.hero_link | relative_url }}" class="button is-info is-large">{{ page.hero_link_text }}</a>
+                {% endif %}
+            </div>
+            <div class="level-right py-0">
+                {% if page.hero_logo %}
+                <figure class="image is-96x96 is-vertical-center">
+                    <img src="{{site.baseurl}}/{{ page.hero_logo }}">
+                </figure>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</section>

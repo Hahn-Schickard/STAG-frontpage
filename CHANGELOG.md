@@ -1,3 +1,15 @@
+# Release version 2 - 2024.1.25
+### Changed
+ - jekyll theme to use bulma-clean-theme
+ - index to include stag 3d model
+ - features page to use cards
+ - publications page to use panels for downloads
+ - about us to show developer photos and contact information
+
+### Added 
+ - architecture page
+ - Flaticon icons with attribution in footer
+
 # Release version 1 - 2021.11.23
 ### Changed
  - standard github static page generator to local jekyll instance

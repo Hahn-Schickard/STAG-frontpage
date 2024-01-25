@@ -1,0 +1,48 @@
+- left:
+    icon: assets/img/simple.png
+    title: Simple
+    description: |-
+      Factory engineers should have to spend as little 
+      effort as possible to connect a new sensor to **STAG** system
+      and thus to the IT world. Individual sensor systems are 
+      automatically registered and become visible to the IT world.  
+  right:
+    icon: assets/img/modular.png
+    title: Modular
+    description: |-
+      **STAG** has been designed from the ground up to be a modular
+      system. This structure makes it possible to add new interfaces 
+      to sensor systems or cloud based solutions at a later date 
+      without having to stop the system. 
+- left:
+    icon: assets/img/cpp_icon.svg
+    title: C++ based
+    description: |-
+      **STAG** is completely written in *C++17* with 
+      [Cmake](https://cmake.org/){:target="_blank"} as its build automation
+      tool and [conan](https://conan.io/){:target="_blank"} for 
+      dependency management. Thus enabling support for a
+      wide range of systems while still offering modern *C++* features.
+  right:
+    icon: assets/img/platform_independent.png
+    title: Platform independent
+    description: |-
+      **STAG** can be executed on Linux, Windows and Mac machines. 
+      Additionally, it is compatible with both *x86* and *ARM* 
+      architectures, thus it is able to work on both small embedded 
+      Linux devices like Raspberry and large backend servers. 
+- left:
+    icon: assets/img/bridge.png
+    title: A bridge between two worlds
+    description: |-
+      **STAG** system is designed to bridge the physical world of 
+      sensors and actuators with the digital world of data visualization
+      and management. 
+      
+      This is done via **Technology Adapter Interface**, which 
+      enable sensor/actor technologies to create `Device` abstractions, and the 
+      **Data Consumer Adapter Interface**, which allows data visualization
+      and management software to interact with the generated `Device` abstractions. 
+      
+      Currently supported implementations of these interfaces are listed bellow in
+      their respective tables.

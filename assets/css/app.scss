@@ -1,0 +1,55 @@
+---
+---
+$primary: #333333;
+$navbar-item-img-max-height: 3.5rem;
+$stag-cyan: #00ACf1;
+// Import Main CSS file from theme
+@import "main";
+
+.is-vertical-center {
+    display: flex;
+    align-items: center;
+}
+
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.site-content {
+  flex: 1;
+}
+
+.button {
+  color: white;
+  background-color:$stag-cyan;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+
+.colored-fa {
+  color: $stag-cyan;
+}
+
+.stag-background {
+  color: white;
+  background-color:$stag-cyan;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.narrow {
+  max-width: 1450px;
+}
+
+.responsive {
+  overflow-x: auto;
+}

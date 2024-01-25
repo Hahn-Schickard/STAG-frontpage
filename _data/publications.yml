@@ -1,0 +1,31 @@
+- title: Publications
+  items:
+    - link: /assets/resources/publications/LwM2M Mapping paper.pdf
+      type: pdf
+      authors: "Dovydas Girdvainis, Christoph Rathfelder"
+      title: "Dynamic LwM2M Data Model Mapping to OPC UA"
+      year: "2019"
+      place: "embedded world Conference"
+    - link: /assets/resources/publications/STAG_IoT_Konferenz.pdf
+      type: pdf
+      authors: "Dovydas Girdvainis"
+      title: "STAG – Sensor Technology Adapter Gateway"
+      year: "2021"
+      place: "IoT Konferenz"
+    - link: https://vdc-tz-stgeorgen.de/23-11-2021-iot-ki-im-mittelstand/
+      type: url
+      authors: "Dovydas Girdvainis"
+      title: "Eine modulare Adapter Lösung für Sensoren im industriellen Internet der Dinge"
+      year: "2021"
+      place: "IOT: ARTIFICIAL INTELLIGENCE OF THINGS, KI-BASIERTE LÖSUNGEN IM INDUSTRIELLEN IOT FÜR DEN MITTELSTAND"
+    - link: https://vogel-fachbuch.de/maschinenbau/konstruktion/1018-digitaler-retrofit
+      type: url
+      authors: "Dovydas Girdvainis, Christoph Rathfelder, Gerhard Marki"
+      title: "Digitaler Retrofit - von Maschinen und Produktionsanlagen"
+      year: "2022"
+    - link: /assets/resources/publications/STAG_Clusterkonferenz_220518.pdf
+      type: pdf
+      authors: "Christoph Rathfelder"
+      title: "Integrieren von Sensoren in das industrial IoT mit Hilfe von STAG"
+      year: "2022"
+      place: "Clusterkonferenz"
