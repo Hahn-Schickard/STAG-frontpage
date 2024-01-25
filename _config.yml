@@ -7,7 +7,7 @@ description: >-
 baseurl: "/software-sollutions/application-engineering/internal/opc_ua_dev_group/gateway-project/homepage" 
 url: "" 
 
-theme: bulma-clean-theme
+remote_theme: chrisrhymes/bulma-clean-theme
 
 fixed_navbar: top
 footer_menu: footer

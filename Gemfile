@@ -1,9 +1,10 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 4.3.3"
+gem "jekyll", "~> 3.9"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
+  gem 'github-pages'
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -22,3 +23,6 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 # Jekyll theme
 gem "bulma-clean-theme", "~> 0.13.3"
+
+gem "webrick", "~> 1.8"
+gem "pathutil", github: "sdogruyol/pathutil", ref: '6ab144a7706c2bc5fa0dfdfa498e94ff66e944c6'
