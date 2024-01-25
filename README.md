@@ -6,7 +6,7 @@ This repository contains all of the files needed to build a static paged with gi
 
 To see the latest STAG homepage version, click the link bellow.
 
-[STAG Homepage](https://stag.hahn-schickard.de/)
+[STAG Homepage](https://hahn-schickard.github.io/STAG-frontpage/)
 
 ## Dependencies
 
