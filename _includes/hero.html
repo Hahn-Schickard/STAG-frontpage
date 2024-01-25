@@ -13,7 +13,7 @@
             <div class="level-right py-0">
                 {% if page.hero_logo %}
                 <figure class="image is-96x96 is-vertical-center">
-                    <img src="{{site.baseurl}}/{{ page.hero_logo }}">
+                    <img src="{{ page.hero_logo | absolute_url }}">
                 </figure>
                 {% endif %}
             </div>
