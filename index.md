@@ -6,7 +6,7 @@ callouts: landing_callouts
 
 # A Modular sensor integration system for Industry 4.0 Smart Factory
 
-<img class="is-flex" src="{{site.baseurl}}/assets/img/stag_3d_right.png" align="left" width="250px" height="250px"/>  
+<img class="is-flex" src="{{site.baseurl}}/assets/img/stag_3d_right.png" align="left" width="300px" height="300px"/>  
 
 <br>
 
