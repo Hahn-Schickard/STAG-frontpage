@@ -1,0 +1,25 @@
+---
+layout: page
+---
+
+{% if page.panels %}
+    {% assign panels=site.data.[page.panels] %}
+    {% for panel in panels %}
+        <nav class="panel">
+        <p class="panel-heading stag-background">
+            {{ panel.title }}
+        </p>
+        {% for item in panel.items %}
+            <a class="panel-block is-active" 
+                href="{% if item.type == 'pdf' %}{{ site.baseurl }}{% endif %}{{ item.link }}"
+                {% if item.type == 'url' %} target="_blank" {% endif %}
+            >
+                <span class="panel-icon">
+                <i class="fas {% if item.type == 'pdf' %} fa-book {% else %} fa-link {% endif %}" aria-hidden="true"></i>
+                </span>
+                {{ item.title }}
+            </a>
+        {% endfor %}
+        </nav>
+    {% endfor %}
+{% endif %}

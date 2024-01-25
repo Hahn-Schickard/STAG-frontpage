@@ -1,0 +1,8 @@
+- name: Features
+  link: /features
+- name: Architecture
+  link: /architecture
+- name: Documentation
+  link: /documentation
+- name: About us
+  link: /about_us

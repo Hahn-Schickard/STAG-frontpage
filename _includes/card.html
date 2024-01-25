@@ -1,0 +1,21 @@
+<div class="card">
+    <div class="card-content {% if include.narrow %} narrow {% endif %}">
+        <div class="media centered">
+            <div class="media-left">
+                {% if include.fa_icon %}
+                <i class="fas {{ include.fa_icon }} fa-4x colored-fa"></i>
+                {% elsif include.icon %}
+                <figure class="image is-128x128">
+                    <img src="{{ site.baseurl }}/{{ include.icon }}">
+                </figure>
+                {% endif %}
+            </div>
+            <div class="media-content">
+                {% if include.title %}
+                <p class="title is-4">{{ include.title }}</p>
+                {% endif %}
+                <p>{{  include.description | markdownify  }}</p>
+            </div>
+        </div>
+    </div>
+</div>
