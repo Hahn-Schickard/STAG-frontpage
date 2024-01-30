@@ -14,8 +14,8 @@ items:
   - title: Documentation
     subtitle: Where can I learn more?
     icon: fa-book
-    call_to_action_name: Publications
-    call_to_action_link: /publications/
+    call_to_action_name: Documentation
+    call_to_action_link: /documentation/
   - title: About us
     subtitle: Who are we?
     icon: fa-user
